@@ -25,3 +25,8 @@ npm run build    # writes the static site to out/
 - `components/*`: React Bits pieces (CircularGallery, TextPressure, ClickSpark, BounceCards, ScrollVelocity)
 - `app/`: Next.js layout (fonts, metadata) and page
 - `public/work/`: project images (each has a full-size and a `-sm` version)
+
+## Live site (GitHub Pages)
+
+Every push to `main` builds the site and publishes it with `.github/workflows/deploy.yml`.
+One-time setup: repository Settings → Pages → Source: **GitHub Actions**.
